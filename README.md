@@ -12,7 +12,7 @@
 | Eclipse | Java |
 | STS | Java, Spring Boot |
 | NetBeans | Java |
-| IntelliJ IDEA | Java |
+| [IntelliJ IDEA](https://www.jetbrains.com/idea/download/#section=windows) | Java |
 | Visual Studio Code | Python, React JS |
 
 # Build Tools
