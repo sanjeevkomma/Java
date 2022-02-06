@@ -2,7 +2,7 @@
 * [Java Doc](https://docs.oracle.com/en/java/javase/index.html)
 
 # Installation
-* [Java 8](https://www.java.com/en/download/)
+* [Java 8](https://www.oracle.com/java/technologies/downloads/#java8-windows)
 * [Eclipse](https://www.eclipse.org/downloads/packages/release) 
 * [Git](https://git-scm.com/downloads)
 * [Maven](https://maven.apache.org/download.cgi)
