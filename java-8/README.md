@@ -36,6 +36,6 @@
 5. Stream API = To perform aggregate operations such as filter() , collect(), count() , iterate() , limit() , map() etc using stream() method on any Collection
 7. forEach() = default method to iterate over the collections & Streams 
 8. Stream Collectors class = To group the elements of the Collection
-9. StringJoiner class
+9. StringJoiner class = To join the strings with the delimiter
 10. Optional class
 11. Arrays Parallel Sort
