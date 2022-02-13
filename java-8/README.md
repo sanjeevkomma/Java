@@ -9,13 +9,16 @@
 1. @FunctionalInterface
 2. 
 
-# Interfaces
-* Function
-* Predicate
-* UnaryOperator
-* BinaryOperator
-* Supplier
-* Consumer
+# Functional Interfaces
+| #Interface  | #Abstract Method |
+| :---: | :---: | 
+| Function | R apply(T t) |
+| Predicate |  |
+|UnaryOperator | |
+|BinaryOperator | |
+|Supplier | |
+|Consumer | |
+| | |
 
 # Features
 1. Lambda Expression
