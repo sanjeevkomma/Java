@@ -1,6 +1,6 @@
 package com.demo.lambda_expression;
 
-@FunctionalInterface  //It is optional  
+@FunctionalInterface  // It is optional  
 interface Drawable { 
 	
     public String draw(String str);  
@@ -22,14 +22,17 @@ public class LambdaExpressionEx {
         
         System.out.println( d1.draw("Anonymous class") ) ;
           
-        //with lambda  
-        Drawable d2 = (String ss) -> {  
+        // with Lambda  
+        Drawable d = ( String str ) ->   // {
         	
-            return ss;
+        	str = str + " JJJ";
+        	
+           // return str;  // return stmt not needed if single stmt in body
             
-        };  
+       // }
+    ;  
         
-        System.out.println( d2.draw("Lamba") ) ; 
+        System.out.println( d.draw("Lamba") ) ; 
     }  
 }  
 

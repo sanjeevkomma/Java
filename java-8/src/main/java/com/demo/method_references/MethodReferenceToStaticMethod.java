@@ -6,19 +6,19 @@ interface Sayable {
     int say(int i );  
     
 }  
-public class MethodReferenceEx { 
+public class MethodReferenceToStaticMethod { 
 	
-    public static int saySomething(int i ) { 
+    public static int saySomething(int number ) { 
     	
-        System.out.println("Hello, this is static method" + i );  
+        System.out.println("Hello, this is static method " + number );  
         
-        return i; 
+        return number; 
     }  
     
     public static void main(String[] args) {
     	
         // Referring static method  
-        Sayable sayable = MethodReferenceEx :: saySomething ;  
+        Sayable sayable = MethodReferenceToStaticMethod :: saySomething ;  
         
         // Calling interface method  
         sayable.say(10);  
