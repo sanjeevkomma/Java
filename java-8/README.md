@@ -18,10 +18,15 @@
 | BinaryOperator<T> extends BiFunction<T,T,T> | |
 | ```Supplier<T>``` |T get(); |
 | ```Consumer<T>``` |void accept(T t); |
+  
+# Methods
+| #Method  | #Type |
+| :---: | :---: | 
+| default void forEach(Consumer<? super T> action) | ```Iterable<T>``` |
 
 
 # Features
-1. Lambda Expression
+1. Lambda Expression = anonymous method
 2. Method references
 3. Functional interfaces
 4. Interface changes: Default and static methods
