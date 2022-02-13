@@ -1,6 +1,7 @@
 # To Read
 * Lamba Expression is anonymous method which can be defined without belonging to any Class
 * [Java 8 Features](https://beginnersbook.com/2017/10/java-8-features-with-examples/)
+* anonymous inner class ( before Java 8 ) vs using lambda expression ( Java 8 )
 
 # Teminology
 * Predicate = 
@@ -23,14 +24,15 @@
 | #Method  | #Type |
 | :---: | :---: | 
 | default void forEach(Consumer<? super T> action) | ```Iterable<T>``` |
+| Stream<T> filter(Predicate<? super T> predicate) | ```Stream<T>``` | 
 
 
 # Features
 1. Lambda Expression = anonymous method
 2. Method references = short notation of lambda expression to call a method --- ( :: operator used )
-3. Functional interfaces
-4. Interface changes: Default and static methods
-5. Streams
+3. Functional interface = single abstract method
+4. Interface changes = Default and static methods
+5. Stream API = 
 6. Stream filter
 7. forEach()
 8. Collectors class
