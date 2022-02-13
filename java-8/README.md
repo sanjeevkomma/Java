@@ -37,5 +37,5 @@
 7. forEach() = default method to iterate over the collections & Streams 
 8. Stream Collectors class = To group the elements of the Collection
 9. StringJoiner class = To join the strings with the delimiter
-10. Optional class
+10. Optional class = to avoid NullPointerException
 11. Arrays Parallel Sort
