@@ -12,11 +12,11 @@
 # Functional Interfaces
 | #Interface  | #Abstract Method |
 | :---: | :---: | 
-| Function<T, R> | R apply(T t); |
+| 'Function<T, R>' | R apply(T t); |
 | Predicate<T> | boolean test(T t); |
 |UnaryOperator<T> extends Function<T, T> | |
 |BinaryOperator<T> extends BiFunction<T,T,T> | |
-|Supplier<T> |T get(); |
+|'Supplier<T>' |T get(); |
 |Consumer<T> |void accept(T t); |
 
 
