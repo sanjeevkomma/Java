@@ -34,7 +34,7 @@
 3. Functional interface = single abstract method
 4. Interface changes = Default and static methods
 5. Stream API = To perform aggregate operations such as filter() , collect(), count() , iterate() , limit() , map() etc on any Collection
-7. forEach()
+7. forEach() = default method to iterate over the collections & Streams 
 8. Collectors class
 9. StringJoiner class
 10. Optional class
