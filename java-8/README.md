@@ -16,7 +16,7 @@
 | Predicate<T> | boolean test(T t); |
 | UnaryOperator<T> extends Function<T, T> | |
 | BinaryOperator<T> extends BiFunction<T,T,T> | |
-| Supplier```<T> |T get(); |
+| Supplier```java<T> |T get(); |
 | Consumer<T> |void accept(T t); |
 
 
