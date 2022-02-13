@@ -33,8 +33,7 @@
 2. Method references = short notation of lambda expression to call a method --- ( :: operator used )
 3. Functional interface = single abstract method
 4. Interface changes = Default and static methods
-5. Stream API = To perform aggregate operations such as filter() , count() , iterate() , limit() etc on any Collection
-6. Stream filter
+5. Stream API = To perform aggregate operations such as filter() , collect(), count() , iterate() , limit() , map() etc on any Collection
 7. forEach()
 8. Collectors class
 9. StringJoiner class
