@@ -27,7 +27,7 @@
 
 # Features
 1. Lambda Expression = anonymous method
-2. Method references
+2. Method references = short notation of lambda expression to call a method. ( :: operator used )
 3. Functional interfaces
 4. Interface changes: Default and static methods
 5. Streams
