@@ -9,11 +9,11 @@
 
 | #IDE Tool  | #Comments |
 | :---: | :---: | 
-| Eclipse | Java |
-| STS | Java, Spring Boot |
-| NetBeans | Java |
-| [IntelliJ IDEA](https://www.jetbrains.com/idea/download/#section=windows) | Java, Kotlin |
-| Visual Studio Code | Python, React JS |
+| Eclipse | Java IDE |
+| STS | Java, Spring Boot IDE |
+| NetBeans | Java IDE |
+| [IntelliJ IDEA](https://www.jetbrains.com/idea/download/#section=windows) | Java, Kotlin IDE |
+| Visual Studio Code | Python, React JS , JavaScript IDE |
 
 # Build Tools
 1. MVN
