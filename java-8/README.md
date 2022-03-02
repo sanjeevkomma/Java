@@ -41,5 +41,5 @@
 |7|Stream Collectors class | To group the elements of the Collection|
 |8|StringJoiner class |To join the strings with the delimiter |
 |9|Optional class |to avoid NullPointerException |
-|10|Arrays Parallel Sort ( Arrays.parallelSort() ) |To support the parallel sorting of array elements |
+|10|Arrays Parallel Sort ( Arrays.parallelSort() ) |To support the parallel sorting of array elements | 
 
