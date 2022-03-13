@@ -32,7 +32,7 @@
 
 |#SNO|#Feature  | #Description |
 | :---: | :---: | :---: |
-|1|Lambda Expression | anonymous method that does not belong to any class ( It was annoymous class before Java8 )|
+|1|Lambda Expression | anonymous method that does not belong to any class ( It was annoymous inner class before Java8 )|
 |2|Method references | short notation of lambda expression to call a method --- ( :: operator used )|
 |3|Functional interface |single abstract method |
 |4|Interface changes | Default and static methods|
