@@ -35,7 +35,7 @@
 |1|Lambda Expression | anonymous method that does not belong to any class ( It was annoymous inner class before Java8 )|
 |2|Method references | short notation of lambda expression to call a method --- ( :: operator used )|
 |3|Functional interface |single abstract method. It can have default methods & static methods also |
-|4|Interface changes | Default and static methods|
+|4|Interface changes | Default and static methods are introduced in Interface|
 |5|Stream API |To perform aggregate operations such as filter() , collect(), count() , iterate() , limit() , map() etc using stream() method on any Collection |
 |6|forEach() |default method to iterate over the collections & Streams |
 |7|Stream Collectors class | To group the elements of the Collection|
