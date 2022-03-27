@@ -5,15 +5,19 @@
 2. Avoid Unnecessary Locks
 3. Using Thread Join
 
-# Interface / Class
-| #Interface / #Class | #Usage |
+# Interface
+| #Interface | #Usage |
 | :---: | :---: | 
 |Runnable |   |
 |Callable | |
 |Future | |
-|Executors | |
-|Thread| |
 |ExecutorService| |
+
+# Class
+| #Class | #Usage |
+| :---: | :---: | 
+|Executors |   |
+|Thread| |
 
 # Method
 | #Method  | #Definition |
