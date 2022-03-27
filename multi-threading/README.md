@@ -6,16 +6,17 @@
 3. Using Thread Join
 
 # Interface
-| #Interface  | #Usage |
+| #Interface / #Class | #Usage |
 | :---: | :---: | 
-| Runnable |   |
+|Runnable |   |
 |Callable | |
 |Future | |
-| | |
-| | |
+|Executors | |
+|Thread| |
+|ExecutorService| |
 
 # Info
-| #Class / Method  | #Definition |
+| #Method  | #Definition |
 | :---: | :---: | 
 | join() | The join() method is used to wait for a thread to complete execution. The join() method of a Thread instance can be used to "join" the start of a thread's execution to the end of another thread's execution so that a thread will not start running until another thread has ended |
 | Thread.sleep(100) |  |
