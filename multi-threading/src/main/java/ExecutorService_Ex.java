@@ -1,7 +1,7 @@
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class ExecutorServiceExample {  
+public class ExecutorService_Ex {  
 
 	public static void main(String[] args) {  
 
