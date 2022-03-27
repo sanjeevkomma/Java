@@ -12,6 +12,7 @@
 |Callable | |
 |Future | |
 |ExecutorService| |
+|ScheduledExecutorService| |
 
 # Class
 | #Class | #Usage |
