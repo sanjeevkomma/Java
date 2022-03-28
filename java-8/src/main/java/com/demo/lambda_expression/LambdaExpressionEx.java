@@ -9,7 +9,7 @@ interface Drawable {
   
 public class LambdaExpressionEx {  
 	
-    public static void main(String[] args) {  
+    public static void main( String[] args ) {  
     	
         Drawable d1 = new Drawable() {
         	

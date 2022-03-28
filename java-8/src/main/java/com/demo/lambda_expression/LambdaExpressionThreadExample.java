@@ -1,7 +1,5 @@
 package com.demo.lambda_expression;
 
-import java.util.Collections;
-
 public class LambdaExpressionThreadExample {
 
 	public static void main(String[] args) {
@@ -15,13 +13,13 @@ public class LambdaExpressionThreadExample {
 			
 		};
 		
-		Thread t1 = new Thread(r1);
+		Thread t1 = new Thread( r1 );
 		
 		t1.start();
 		
 		Runnable r2 = ( ) -> { System.out.println("thread t2 running using lamba"); } ; 
 		
-		Thread t2 = new Thread(r2);
+		Thread t2 = new Thread( r2 );
 		
 		t2.start();
 		

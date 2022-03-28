@@ -15,13 +15,14 @@ class Hello {
 		System.out.print(say);  
 	}  
 }  
+
 public class MethodReferenceToConstructor {  
 
 	public static void main(String[] args) { 
 
-		//Method reference to a constructor
+		// Method reference to a constructor
 
-		MyInterface2 ref = Hello::new;  
+		MyInterface2 ref = Hello :: new ;  
 
 		ref.display("Hello World!");  
 	}  

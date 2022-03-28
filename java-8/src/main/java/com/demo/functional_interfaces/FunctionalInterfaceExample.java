@@ -22,7 +22,7 @@ public class FunctionalInterfaceExample implements Sayable2 {
 
 	public static void main(String[] args) {  
 
-		FunctionalInterfaceExample fie = new FunctionalInterfaceExample();  
+		Sayable2 fie = new FunctionalInterfaceExample();  
 
 		fie.say("Hello there");  
 	}  
