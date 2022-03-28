@@ -8,20 +8,13 @@ import java.util.stream.Collectors;
 
 public class Collectors_GroupingBy {
 
-   public static void main(String[] args) {
+	public static void main(String[] args) {
 
-      List<String> names =
-          Arrays.asList("Jon", "Ajeet", "Steve",
-             "Ajeet", "Jon", "Ajeet");
+		List<String> names = Arrays.asList("Jon", "Ajeet", "Steve","Ajeet", "Jon", "Ajeet");
 
-      Map<String, Long> map =
-      names.stream().collect(
-          Collectors.groupingBy(
-             Function.identity(), Collectors.counting()
-          )
-      );
+		Map<String, Long> map = names.stream().collect( Collectors.groupingBy( Function.identity(), Collectors.counting()) );
 
-      System.out.println(map);
+		System.out.println(map);
 
-   }
+	}
 }
