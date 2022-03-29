@@ -3,7 +3,7 @@ package com.demo.foreach_method;
 import java.util.Map;
 import java.util.HashMap;
 
-public class ForEachMap {
+public class ForEach_Map {
 
 	// forEach to iterate a Map
 

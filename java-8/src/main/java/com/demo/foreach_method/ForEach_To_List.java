@@ -3,7 +3,7 @@ package com.demo.foreach_method;
 
 import java.util.List;
 import java.util.ArrayList;
-public class ForEachToList {
+public class ForEach_To_List {
 
 	// forEach to iterate a List
 

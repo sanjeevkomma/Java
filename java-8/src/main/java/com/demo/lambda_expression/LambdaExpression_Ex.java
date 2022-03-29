@@ -7,7 +7,7 @@ interface Drawable {
     
 }  
   
-public class LambdaExpressionEx {  
+public class LambdaExpression_Ex {  
 	
     public static void main( String[] args ) {  
     	

@@ -3,7 +3,7 @@ package com.demo.foreach_method;
 import java.util.List;
 import java.util.ArrayList;
 
-public class ForEachExample {
+public class ForEach_Example {
 
 
 	// forEach(Consumer<T> action) is the default method in Iterable interface 

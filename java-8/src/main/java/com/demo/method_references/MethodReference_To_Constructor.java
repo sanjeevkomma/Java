@@ -16,7 +16,7 @@ class Hello {
 	}  
 }  
 
-public class MethodReferenceToConstructor {  
+public class MethodReference_To_Constructor {  
 
 	public static void main(String[] args) { 
 

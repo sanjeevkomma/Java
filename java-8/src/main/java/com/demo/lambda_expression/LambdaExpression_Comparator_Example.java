@@ -6,7 +6,7 @@ import java.util.List;
 
 // Collections.sort(list, comparator);
 
-public class LambdaExpressionComparatorExample {
+public class LambdaExpression_Comparator_Example {
 
 	public static void main(String[] args) {
 

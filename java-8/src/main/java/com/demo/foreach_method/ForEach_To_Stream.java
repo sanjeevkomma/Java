@@ -4,7 +4,7 @@ package com.demo.foreach_method;
 import java.util.List;
 import java.util.ArrayList;
 
-public class ForEachToStream {
+public class ForEach_To_Stream {
 	
 	// forEach method to iterate a Stream
 	

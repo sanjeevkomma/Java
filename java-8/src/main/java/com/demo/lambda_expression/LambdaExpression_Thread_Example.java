@@ -1,6 +1,6 @@
 package com.demo.lambda_expression;
 
-public class LambdaExpressionThreadExample {
+public class LambdaExpression_Thread_Example {
 
 	public static void main(String[] args) {
 		
