@@ -20,6 +20,11 @@
 | BinaryOperator<T> extends BiFunction<T,T,T> | |
 | ```Supplier<T>``` |T get(); |
 | ```Consumer<T>``` |void accept(T t); |
+
+# Class
+| #Class  | #Method |
+| :---: | :---: | 
+| Optional<T>| empty() , of(T value) |
   
 # Methods
 | #Method  | #Type |
