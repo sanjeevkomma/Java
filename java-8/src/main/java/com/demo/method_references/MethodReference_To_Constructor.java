@@ -1,7 +1,6 @@
 package com.demo.method_references;
 
 @FunctionalInterface 
-
 interface MyInterface2 {  
 
 	Hello display(String say);  
@@ -22,7 +21,7 @@ public class MethodReference_To_Constructor {
 
 		// Method reference to a constructor
 
-		MyInterface2 ref = Hello :: new ;  
+		MyInterface2 ref = Hello :: new  ;  
 
 		ref.display("Hello World!");  
 	}  

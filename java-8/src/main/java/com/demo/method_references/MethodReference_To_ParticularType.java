@@ -2,7 +2,7 @@ package com.demo.method_references;
 
 import java.util.Arrays;
 
-public class MethodReferenceToParticularType {  
+public class MethodReference_To_ParticularType {  
 
 	public static void main(String[] args) {  
 
@@ -13,9 +13,9 @@ public class MethodReferenceToParticularType {
 		 * object of a particular type
 		 */
 
-		Arrays.sort(stringArray, String::compareToIgnoreCase);
+		Arrays.sort( stringArray, String :: compareToIgnoreCase );
 
-		for(String str: stringArray){
+		for( String str: stringArray ) {
 
 			System.out.println(str);
 

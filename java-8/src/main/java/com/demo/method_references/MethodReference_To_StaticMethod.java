@@ -3,12 +3,13 @@ package com.demo.method_references;
 @FunctionalInterface
 interface Sayable {  
 	
-    int say(int i );  
+    Integer say(Integer i );  
     
 }  
-public class MethodReferenceToStaticMethod { 
+
+public class MethodReference_To_StaticMethod{ 
 	
-    public static int saySomething(int number ) { 
+    public static Integer saySomething( Integer number ) { 
     	
         System.out.println("Hello, this is static method " + number );  
         
@@ -18,9 +19,9 @@ public class MethodReferenceToStaticMethod {
     public static void main(String[] args) {
     	
         // Referring static method  
-        Sayable sayable = MethodReferenceToStaticMethod :: saySomething ;  
+        Sayable sayable =  MethodReference_To_StaticMethod :: saySomething ;  
         
         // Calling interface method  
-        sayable.say(10);  
+        System.out.println( sayable.say(10) );  
     }  
 }  
