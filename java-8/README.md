@@ -24,7 +24,7 @@
 # Class
 | #Class  | #Method |
 | :---: | :---: | 
-| Optional<T>| empty() , of(T value) |
+| Optional<T>| empty() , of(T value) , ofNullable(T value) |
   
 # Methods
 | #Method  | #Type |
