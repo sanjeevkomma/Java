@@ -24,7 +24,7 @@
 # Class
 | #Class  | #Methods |
 | :---: | :---: | 
-| Optional<T>| empty() , of(T value) , ofNullable(T value), isPresent(), ifPresent(Consumer<? super T> consumer), map(Function<? super T, ? extends U> mapper) |
+| Optional<T>| empty() , of(T value) , ofNullable(T value), isPresent(), ifPresent(Consumer<? super T> consumer) |
   
 # Methods
 | #Method  | #Type |
