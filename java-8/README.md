@@ -22,9 +22,9 @@
 | ```Consumer<T>``` |void accept(T t); |
 
 # Class
-| #Class  | #Method |
+| #Class  | #Methods |
 | :---: | :---: | 
-| Optional<T>| empty() , of(T value) , ofNullable(T value) |
+| Optional<T>| empty() , of(T value) , ofNullable(T value), isPresent(), ifPresent(Consumer<? super T> consumer), map(Function<? super T, ? extends U> mapper) |
   
 # Methods
 | #Method  | #Type |
