@@ -27,3 +27,6 @@
 | Thread.sleep(100) |  |
 | wait() | The wait() method is used to wait for a notification to be sent on an object |
 |  |  |
+
+# Reference
+* [reentrantlock](https://stackoverflow.com/questions/11821801/why-use-a-reentrantlock-if-one-can-use-synchronizedthis)
