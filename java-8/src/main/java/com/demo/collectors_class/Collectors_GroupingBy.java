@@ -12,9 +12,16 @@ public class Collectors_GroupingBy {
 
 		List<String> names = Arrays.asList("Jon", "Ajeet", "Steve","Ajeet", "Jon", "Ajeet");
 
-		Map<String, Long> map = names.stream().collect( Collectors.groupingBy( Function.identity(), Collectors.counting()) );
+		Map<String, Long> map = names.stream().collect( Collectors.groupingBy( Function.identity(), Collectors.counting() ) );
 
 		System.out.println(map);
+		
+		
+		List<Integer> ages = Arrays.asList( 10,23,43 , 43, 10 , 10 );
+
+		Map<Integer, Long> mapAge = ages.stream().collect( Collectors.groupingBy( Function.identity(), Collectors.counting() ) );
+
+		System.out.println(mapAge);
 
 	}
 }

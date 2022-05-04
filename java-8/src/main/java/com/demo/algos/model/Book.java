@@ -1,11 +1,11 @@
-package com.demo.algos;
+package com.demo.algos.model;
 
 public class Book {
 
 	private int id;
 	private String name;
 
-	Book(int id , String name) {
+	public Book(int id , String name) {
 
 		this.id = id;
 		this.name = name;
@@ -30,11 +30,11 @@ public class Book {
 	}
 
 
-/*	@Override
+	@Override
 	public int hashCode() {
 
 		return this.id;
-	}*/
+	}
 
 
 
