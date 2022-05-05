@@ -30,3 +30,4 @@
 
 # Reference
 * [reentrantlock](https://stackoverflow.com/questions/11821801/why-use-a-reentrantlock-if-one-can-use-synchronizedthis)
+* [ConcurrentHashMap vs Synchronized HashMap](https://stackoverflow.com/questions/1291836/concurrenthashmap-vs-synchronized-hashmap)
