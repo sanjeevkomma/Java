@@ -2,6 +2,8 @@
 
 # To Read
 * ConcurrentHashMap is thread safe without synchronizing the whole map. Reads can happen very fast while write is done with a lock
+* ConcurrentHashMap = ConcurrentHashMap consist of internal segments which can be viewed as independent HashMaps Conceptually. All such segments can be locked by separate threads in high concurrent executions. So, multiple threads can get/put key-value pairs from ConcurrentHashMap without blocking/waiting for each other. This is implemented for higher throughput.
+* Collections.synchronizedMap() = we get a synchronized version of HashMap and it is accessed in blocking manner. This means if multiple threads try to access synchronizedMap at same time, they will be allowed to get/put key-value pairs one at a time in synchronized manner
 
 # Terminology
 * thread safe = 
