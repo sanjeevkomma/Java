@@ -14,6 +14,8 @@ public class Count_Duplicates {
 		
 		int arr[] = { 10, 30, 10, 20, 50, 20, 30, 70 };
 		
+		int aa[] = new int[9];
+		
 		System.out.println(countDuplicates(arr));
 
 	}

@@ -1,3 +1,4 @@
+import java.util.concurrent.ConcurrentHashMap;
 
 public class DeadLockDemo {
 
@@ -6,6 +7,8 @@ public class DeadLockDemo {
 		final String resource1 = "spring boot";  
 
 		final String resource2 = "hibernate";  
+		
+		ConcurrentHashMap onj = null;
 
 		// t1 tries to lock resource1 then resource2  
 
