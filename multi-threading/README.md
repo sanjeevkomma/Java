@@ -1,5 +1,8 @@
 # Multithreading
 
+# To Read
+* ConcurrentHashMap is thread safe without synchronizing the whole map. Reads can happen very fast while write is done with a lock
+
 # How to Avoid Deadlock
 1. Avoid Nested Locks
 2. Avoid Unnecessary Locks
