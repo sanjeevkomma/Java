@@ -3,6 +3,11 @@
 # To Read
 * ConcurrentHashMap is thread safe without synchronizing the whole map. Reads can happen very fast while write is done with a lock
 
+# Terminology
+* thread safe = 
+* ConcurrentHashMap = It will maintain the lock at the segment level
+* Synchronised Hashmap = It will maintain the lock at the object level
+
 # How to Avoid Deadlock
 1. Avoid Nested Locks
 2. Avoid Unnecessary Locks
