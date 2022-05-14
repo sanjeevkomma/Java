@@ -42,8 +42,7 @@ public class Collectors_AveragingInt {
 
 		studentlist.add(new Student2(55,"Maggie",18));
 
-		//Getting the average Age 
-		Double avgAge = studentlist.stream().collect( Collectors.averagingInt( (Student2 s) -> s.age ) );  
+		Double avgAge = studentlist.stream().collect( Collectors.averagingInt( ( Student2 s ) -> s.age ) );  
 		
 		System.out.println("Average Age of Students is: " + avgAge );
 	}  

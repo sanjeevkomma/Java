@@ -53,6 +53,10 @@ public class Collectors_Set {
 		for( Emp emp : emps ) { 
 
 			System.out.println( emp.id + " " + emp.name + " " + emp.age ); 
-		}           
+		}        
+		
+		System.out.println(" ************** " ); 
+		
+		emps.forEach( ( Emp e ) -> System.out.println(e.id + " " + e.name + " " + e.age )  );
 	} 
 }
