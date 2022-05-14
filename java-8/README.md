@@ -48,3 +48,5 @@
 |9|Optional class |to avoid NullPointerException |
 |10|Arrays Parallel Sort ( Arrays.parallelSort() ) |To support the parallel sorting of array elements | 
 
+# Reference
+* [Java 8 Date/Time API](https://www.baeldung.com/java-8-date-time-intro)
