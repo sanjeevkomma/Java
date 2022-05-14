@@ -47,6 +47,7 @@
 |8|StringJoiner class |To join the strings with the delimiter |
 |9|Optional class |to avoid NullPointerException |
 |10|Arrays Parallel Sort ( Arrays.parallelSort() ) |To support the parallel sorting of array elements | 
+|11|[Date & Time API](https://www.tutorialspoint.com/java8/java8_datetime_api.htm) |1. Not thread safe 2. The old API had less direct methods for date operations 3. Difficult time zone handling | 
 
 # Reference
 * [Java 8 Date/Time API](https://www.baeldung.com/java-8-date-time-intro)
