@@ -5,6 +5,7 @@
 * ConcurrentHashMap = ConcurrentHashMap consist of internal segments which can be viewed as independent HashMaps Conceptually. All such segments can be locked by separate threads in high concurrent executions. So, multiple threads can get/put key-value pairs from ConcurrentHashMap without blocking/waiting for each other. This is implemented for higher throughput.
 * Collections.synchronizedMap() = we get a synchronized version of HashMap and it is accessed in blocking manner. This means if multiple threads try to access synchronizedMap at same time, they will be allowed to get/put key-value pairs one at a time in synchronized manner
 * SynchronizedMap and ConcurrentHashMap are both thread safe class and can be used in multithreaded application, the main difference between them is regarding how they achieve thread safety
+* We can achieve the concurrency with parallel processing or asynchronous behavior as task can be divided into subtasks and these subtasks can be executed in parallel 
 
 # Terminology
 * thread safe = 
