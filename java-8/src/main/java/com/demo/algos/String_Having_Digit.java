@@ -12,7 +12,6 @@ public class String_Having_Digit {
 		
 		System.out.println(evaluateString(str1));
 		
-
 	}
 	
 	
@@ -30,7 +29,6 @@ public class String_Having_Digit {
 				
 				break;
 			}
-			
 			
 		}
 

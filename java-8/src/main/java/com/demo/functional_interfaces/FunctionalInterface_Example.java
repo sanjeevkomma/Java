@@ -1,5 +1,6 @@
 package com.demo.functional_interfaces;
 
+@FunctionalInterface
 interface Sayable2 {
 
 	void say(String msg); // Single Abstract Method

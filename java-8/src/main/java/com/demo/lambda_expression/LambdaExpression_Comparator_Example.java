@@ -2,6 +2,7 @@ package com.demo.lambda_expression;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 // Collections.sort(list, comparator);
@@ -18,7 +19,9 @@ public class LambdaExpression_Comparator_Example {
 
 		list.add("axyz");
 
-		// Comparator<String> c1 = ( String s1 , String s2 ) -> {  return s1.compareTo(s2); } ; 
+		Comparator<String> c1 = ( String s1 , String s2 ) -> {  return s1.compareTo(s2); } ; 
+		
+		Collections.sort( list, c1 );
 
 		Collections.sort( list, ( String s1 , String s2 ) -> {  return s2.compareTo(s1); } );
 

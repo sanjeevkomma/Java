@@ -23,19 +23,16 @@ public class ForEach_Map {
 
 		hmap.put(6, "Bear");
 
-		// forEach to iterate and display each key and value pair of HashMap  
 		hmap.forEach(  ( Integer key,String value ) ->  { System.out.println( key + " - " + value ); }  );
 
-		// forEach to iterate a Map and display the value of a particular key     
 		hmap.forEach( ( Integer key, String value ) -> { 
 
 			if( key == 4 ) {  
 
 				System.out.println("Value associated with key 4 is: " + value ); 
 			}  
-		});    
+		} );    
 
-		// forEach to iterate a Map and display the key associated with a particular value     
 		hmap.forEach( ( Integer key, String value ) -> {
 
 			if("Cat".equals(value)){ 

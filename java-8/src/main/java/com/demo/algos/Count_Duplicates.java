@@ -27,10 +27,7 @@ public class Count_Duplicates {
 		
 		Map<Integer,Integer> map = new HashMap<Integer,Integer>();
 
-		Map<Integer,Long> map2 = new HashMap<Integer,Long>();
-
-
-		map2 = list.stream().collect(Collectors.groupingBy(Function.identity() , Collectors.counting()));
+		Map<Integer,Long> map2 = list.stream().collect(Collectors.groupingBy(Function.identity() , Collectors.counting()));
 
 		// return map;
 		
