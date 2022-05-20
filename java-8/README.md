@@ -21,6 +21,7 @@
 | ```Supplier<T>``` |T get(); | |
 | ```Consumer<T>``` |void accept(T t); | |
 
+
 # Class
 | #Class  | #Methods |
 | :---: | :---: | 
