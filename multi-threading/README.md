@@ -25,7 +25,7 @@
 |Future | |
 |ExecutorService| |
 |ScheduledExecutorService| |
-| ```Future<V>``` | A Future represents the result of an asynchronous computation|  
+| ```java.util.concurrent.Future<V>``` | A Future represents the result of an asynchronous computation|  
 
 # Class
 | #Class | #Usage |
