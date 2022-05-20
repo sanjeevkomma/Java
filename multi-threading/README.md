@@ -18,13 +18,14 @@
 3. Using Thread Join
 
 # Interface
-| #Interface | #Usage |
+| #Interface | #Intent |
 | :---: | :---: | 
 |Runnable |   |
 |Callable | |
 |Future | |
 |ExecutorService| |
 |ScheduledExecutorService| |
+| ```Future<V>``` | A Future represents the result of an asynchronous computation|  
 
 # Class
 | #Class | #Usage |
