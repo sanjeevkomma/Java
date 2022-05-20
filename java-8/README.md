@@ -51,3 +51,4 @@
 
 # Reference
 * [Java 8 Date/Time API](https://www.baeldung.com/java-8-date-time-intro)
+* [Real Time Queries Using Java 8 Features -Employee Management System](https://javaconceptoftheday.com/solving-real-time-queries-using-java-8-features-employee-management-system/)
