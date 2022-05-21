@@ -18,13 +18,13 @@
 3. Using Thread Join
 
 # Interface
-| #Interface | #Usage |
+| #Interface | #Intent |
 | :---: | :---: | 
 |Runnable |   |
 |Callable | |
-|Future | |
 |ExecutorService| |
 |ScheduledExecutorService| |
+| ```java.util.concurrent.Future<V>``` | A Future represents the result of an asynchronous computation. Methods are provided to check if the computation is complete, to wait for its completion, and to retrieve the result of the computation|  
 
 # Class
 | #Class | #Usage |
