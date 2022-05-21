@@ -25,11 +25,17 @@ public class Count_Duplicates {
 
 		List<Integer> list = Arrays.asList(12,67);
 		
+		List<String> listStr = Arrays.asList("apple","mango","apple","banana");
+		
 		Map<Integer,Integer> map = new HashMap<Integer,Integer>();
 
 		Map<Integer,Long> map2 = list.stream().collect(Collectors.groupingBy(Function.identity() , Collectors.counting()));
+		
+		System.out.println(map2);
+		
+		Map<String,Long> map3 = listStr.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 
-		// return map;
+		System.out.println(map3);
 		
 		for ( int i = 0 ; i < arr.length ; i ++ ) {
 			
