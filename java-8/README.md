@@ -34,8 +34,11 @@
 | 16 |void forEachOrdered(Consumer<? super T> action); |Performs an action for each element of this stream, in the encounter order of the stream if the stream has a defined encounter order |
 | 17 |Object[] toArray(); |Returns an array containing the elements of this stream |
 | 18 |<A> A[] toArray(IntFunction<A[]> generator); |Returns an array containing the elements of this stream, using the provided {@code generator} function to allocate the returned array, as well as any additional arrays that might be required for a partitioned execution or for resizing |
-| 19 | | |
-
+| 19 |T reduce(T identity, BinaryOperator<T> accumulator); |1. Performs a reduction on the elements of this stream, using the provided identity value and an associative accumulation function, and returns the reduced value 2. Sum, min, max, average, and string concatenation are all special cases of reduction |
+| 20 |Optional<T> reduce(BinaryOperator<T> accumulator); |Performs a reduction on the elements of this stream, using an associative accumulation function, and returns an {@code Optional} describing the reduced value, if any |
+| 21 |<U> U reduce(U identity,BiFunction<U, ? super T, U> accumulator,BinaryOperator<U> combiner); |Performs a reduction on the elements of this stream, using the provided identity, accumulation and combining functions |
+| 22 |<R> R collect(Supplier<R> supplier,BiConsumer<R, ? super T> accumulator,BiConsumer<R, R> combiner); |Performs a mutable reduction operation on the elements of this stream.  A mutable reduction is one in which the reduced value is a mutable result container, such as an {@code ArrayList}, and elements are incorporated by updating the state of the result rather than by replacing the result |
+| 23 |<R, A> R collect(Collector<? super T, A, R> collector); |Performs a mutable reduction operation on the elements of this stream using a {@code Collector}.  A {@code Collector} encapsulates the functions used as arguments to {@link #collect(Supplier, BiConsumer, BiConsumer)}, allowing for reuse of collection strategies and composition of collect operations such as multiple-level grouping or partitioning |
 
 
 # Functional Interfaces
