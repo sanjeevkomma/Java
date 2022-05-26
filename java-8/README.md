@@ -5,7 +5,7 @@
 * Stream does not store the elements. It simply performs the aggregate operations such as filter() and count() to get the desired stream of data
 
 # Teminology
-* Predicate = 
+
 
 # Annotations
 |SNo| #Annotation  | #Intent |
