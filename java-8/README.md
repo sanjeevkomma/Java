@@ -30,15 +30,15 @@
 
 
 # Class
-| #Class  | #Methods |
-| :---: | :---: | 
-| Optional<T>| empty() , of(T value) , ofNullable(T value), isPresent(), ifPresent(Consumer<? super T> consumer) |
+|SNo| #Class  | #Methods |
+| :---:| :---: | :---: | 
+|1| Optional<T>| empty() , of(T value) , ofNullable(T value), isPresent(), ifPresent(Consumer<? super T> consumer) |
   
 # Methods
-| #Method  | #Type |
-| :---: | :---: | 
-| default void forEach(Consumer<? super T> action) | ```Iterable<T>``` |
-| Stream<T> filter(Predicate<? super T> predicate) | ```Stream<T>``` | 
+|SNo| #Method  | #Type |
+| :---:| :---: | :---: | 
+|1 | default void forEach(Consumer<? super T> action) | ```Iterable<T>``` |
+|2 | Stream<T> filter(Predicate<? super T> predicate) | ```Stream<T>``` | 
 
 
 # Features
