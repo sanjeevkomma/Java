@@ -53,7 +53,7 @@
 |6|forEach() |default method to iterate over the collections & Streams |
 |7|Stream Collectors class | To group the elements of the Collection|
 |8|StringJoiner class |To join the strings with the delimiter |
-|9|Optional class |to avoid NullPointerException |
+|9|Optional class |1. To provide a type-level solution for representing optional values instead of null references 2. to avoid NullPointerException |
 |10|Arrays Parallel Sort ( Arrays.parallelSort() ) |To support the parallel sorting of array elements | 
 |11|[Date & Time API](https://www.tutorialspoint.com/java8/java8_datetime_api.htm) |1. Not thread safe 2. The old API had less direct methods for date operations 3. Difficult time zone handling | 
 
