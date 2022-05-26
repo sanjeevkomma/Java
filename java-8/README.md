@@ -8,18 +8,25 @@
 * Predicate = 
 
 # Annotations
-1. @FunctionalInterface
-2. 
+|SNo| #Annotation  | #Intent |
+| :---:| :---: | :---: | 
+| 1 |@FunctionalInterface | |
+ 
+
+# Stream API
+|SNo| #API  | ##Intent |
+| :---: | :---: | :---: |
+| 1 | Stream.distinct() | |
 
 # Functional Interfaces
-| #Interface  | #Abstract Method | #Intent |
-| :---: | :---: | :---: |
-| Function<T, R> | R apply(T t); | |
-| ```Predicate<T>``` | boolean test(T t); | |
-| UnaryOperator<T> extends Function<T, T> | |
-| BinaryOperator<T> extends BiFunction<T,T,T> | |
-| ```Supplier<T>``` |T get(); | |
-| ```Consumer<T>``` |void accept(T t); | |
+|SNo| #Interface  | #Abstract Method | #Intent |
+|1 | :---: | :---: | :---: |
+|2 | Function<T, R> | R apply(T t); | |
+| 3| ```Predicate<T>``` | boolean test(T t); | |
+| 4| UnaryOperator<T> extends Function<T, T> | |
+| 5| BinaryOperator<T> extends BiFunction<T,T,T> | |
+| 6| ```Supplier<T>``` |T get(); | |
+| 7| ```Consumer<T>``` |void accept(T t); | |
 
 
 # Class
