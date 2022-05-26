@@ -19,8 +19,8 @@
 | 1 | Stream<T> filter(Predicate<? super T> predicate); |Returns a stream consisting of the elements of this stream that match the given predicate |
 | 2 | <R> Stream<R> map(Function<? super T, ? extends R> mapper); |Returns a stream consisting of the results of applying the given function to the elements of this stream |
 | 3 | IntStream mapToInt(ToIntFunction<? super T> mapper); |Returns an {@code IntStream} consisting of the results of applying the given function to the elements of this stream |
-| 4 | Stream<T> distinct() | |
-| 4 | Stream<T> distinct() | |
+| 4 | LongStream mapToLong(ToLongFunction<? super T> mapper); |Returns a {@code LongStream} consisting of the results of applying the given function to the elements of this stream |
+| 4 | <R> Stream<R> flatMap(Function<? super T, ? extends Stream<? extends R>> mapper); | Returns a stream consisting of the results of replacing each element of this stream with the contents of a mapped stream produced by applying the provided mapping function to each element.  Each mapped stream is {@link java.util.stream.BaseStream#close() closed} after its contents have been placed into this stream.  (If a mapped stream is {@code null} an empty stream is used, instead.)|
 | 4 | Stream<T> distinct() | |
 | 4 | Stream<T> distinct() | |
 | 4 | Stream<T> distinct() | |
