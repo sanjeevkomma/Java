@@ -20,13 +20,21 @@
 | 2 | <R> Stream<R> map(Function<? super T, ? extends R> mapper); |Returns a stream consisting of the results of applying the given function to the elements of this stream |
 | 3 | IntStream mapToInt(ToIntFunction<? super T> mapper); |Returns an {@code IntStream} consisting of the results of applying the given function to the elements of this stream |
 | 4 | LongStream mapToLong(ToLongFunction<? super T> mapper); |Returns a {@code LongStream} consisting of the results of applying the given function to the elements of this stream |
-| 4 | <R> Stream<R> flatMap(Function<? super T, ? extends Stream<? extends R>> mapper); | Returns a stream consisting of the results of replacing each element of this stream with the contents of a mapped stream produced by applying the provided mapping function to each element.  Each mapped stream is {@link java.util.stream.BaseStream#close() closed} after its contents have been placed into this stream.  (If a mapped stream is {@code null} an empty stream is used, instead.)|
-| 4 | Stream<T> distinct() | |
-| 4 | Stream<T> distinct() | |
-| 4 | Stream<T> distinct() | |
-| 4 | Stream<T> distinct() | |
-| 4 | Stream<T> distinct() | |
-
+| 5 | <R> Stream<R> flatMap(Function<? super T, ? extends Stream<? extends R>> mapper); | Returns a stream consisting of the results of replacing each element of this stream with the contents of a mapped stream produced by applying the provided mapping function to each element.  Each mapped stream is {@link java.util.stream.BaseStream#close() closed} after its contents have been placed into this stream.  (If a mapped stream is {@code null} an empty stream is used, instead.)|
+| 6 | IntStream flatMapToInt(Function<? super T, ? extends IntStream> mapper); |Returns an {@code IntStream} consisting of the results of replacing each element of this stream with the contents of a mapped stream produced by applying the provided mapping function to each element.  Each mapped stream is {@link java.util.stream.BaseStream#close() closed} after its contents have been placed into this stream.  (If a mapped stream is {@code null} an empty stream is used, instead.) |
+| 7 | LongStream flatMapToLong(Function<? super T, ? extends LongStream> mapper); |Returns an {@code LongStream} consisting of the results of replacing each element of this stream with the contents of a mapped stream produced by applying the provided mapping function to each element.  Each mapped stream is {@link java.util.stream.BaseStream#close() closed} after its contents have been placed into this stream.  (If a mapped stream is {@code null} an empty stream is used, instead.) |
+| 8 | DoubleStream flatMapToDouble(Function<? super T, ? extends DoubleStream> mapper); |Returns an {@code DoubleStream} consisting of the results of replacing each element of this stream with the contents of a mapped stream produced by applying the provided mapping function to each element.  Each mapped stream is {@link java.util.stream.BaseStream#close() closed} after its contents have placed been into this stream.  (If a mapped stream is {@code null} an empty stream is used, instead.) |
+| 9 | Stream<T> distinct() |Returns a stream consisting of the distinct elements (according to {@link Object#equals(Object)}) of this stream |
+| 10 | Stream<T> sorted(); |Returns a stream consisting of the elements of this stream, sortedaccording to natural order.  If the elements of this stream are not{@code Comparable}, a {@code java.lang.ClassCastException} may be thrown when the terminal operation is executed |
+| 11 |Stream<T> sorted(Comparator<? super T> comparator); |Returns a stream consisting of the elements of this stream, sorted according to the provided {@code Comparator} |
+| 12 |Stream<T> peek(Consumer<? super T> action); |Returns a stream consisting of the elements of this stream, additionally performing the provided action on each element as elements are consumed from the resulting stream |
+| 13 |Stream<T> limit(long maxSize); |Returns a stream consisting of the elements of this stream, truncated to be no longer than {@code maxSize} in length |
+| 14 |Stream<T> skip(long n); |Returns a stream consisting of the remaining elements of this stream after discarding the first {@code n} elements of the stream. If this stream contains fewer than {@code n} elements then an empty stream will be returned |
+| 15 |void forEach(Consumer<? super T> action); |Performs an action for each element of this stream |
+| 16 |void forEachOrdered(Consumer<? super T> action); |Performs an action for each element of this stream, in the encounter order of the stream if the stream has a defined encounter order |
+| 17 |Object[] toArray(); |Returns an array containing the elements of this stream |
+| 18 |<A> A[] toArray(IntFunction<A[]> generator); |Returns an array containing the elements of this stream, using the provided {@code generator} function to allocate the returned array, as well as any additional arrays that might be required for a partitioned execution or for resizing |
+| 19 | | |
 
 
 
