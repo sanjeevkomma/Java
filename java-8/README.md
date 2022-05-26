@@ -20,13 +20,13 @@
 
 # Functional Interfaces
 |SNo| #Interface  | #Abstract Method | #Intent |
-|1 | :---: | :---: | :---: |
-|2 | Function<T, R> | R apply(T t); | |
-| 3| ```Predicate<T>``` | boolean test(T t); | |
-| 4| UnaryOperator<T> extends Function<T, T> | |
-| 5| BinaryOperator<T> extends BiFunction<T,T,T> | |
-| 6| ```Supplier<T>``` |T get(); | |
-| 7| ```Consumer<T>``` |void accept(T t); | |
+|:---: | :---: | :---: | :---: |
+|1 | Function<T, R> | R apply(T t); | |
+| 2| ```Predicate<T>``` | boolean test(T t); | |
+| 3| UnaryOperator<T> extends Function<T, T> | |
+|4| BinaryOperator<T> extends BiFunction<T,T,T> | |
+| 5| ```Supplier<T>``` |T get(); | |
+| 6| ```Consumer<T>``` |void accept(T t); | |
 
 
 # Class
