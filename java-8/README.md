@@ -13,10 +13,13 @@
 | 1 |@FunctionalInterface | |
  
 
-# Stream API
+# Stream interface API
 |SNo| #API  | ##Intent |
 | :---: | :---: | :---: |
-| 1 | Stream.distinct() | |
+| 1 | Stream<T> filter(Predicate<? super T> predicate); |Returns a stream consisting of the elements of this stream that match the given predicate |
+| 2 | Stream<T> distinct() | |
+| 3 | Stream<T> distinct() | |
+| 4 | Stream<T> distinct() | |
 
 # Functional Interfaces
 |SNo| #Interface  | #Abstract Method | #Intent |
