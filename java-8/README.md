@@ -17,9 +17,18 @@
 |SNo| #API  | ##Intent |
 | :---: | :---: | :---: |
 | 1 | Stream<T> filter(Predicate<? super T> predicate); |Returns a stream consisting of the elements of this stream that match the given predicate |
-| 2 | Stream<T> distinct() | |
-| 3 | Stream<T> distinct() | |
+| 2 | <R> Stream<R> map(Function<? super T, ? extends R> mapper); |Returns a stream consisting of the results of applying the given function to the elements of this stream |
+| 3 | IntStream mapToInt(ToIntFunction<? super T> mapper); |Returns an {@code IntStream} consisting of the results of applying the given function to the elements of this stream |
 | 4 | Stream<T> distinct() | |
+| 4 | Stream<T> distinct() | |
+| 4 | Stream<T> distinct() | |
+| 4 | Stream<T> distinct() | |
+| 4 | Stream<T> distinct() | |
+| 4 | Stream<T> distinct() | |
+| 4 | Stream<T> distinct() | |
+
+
+
 
 # Functional Interfaces
 |SNo| #Interface  | #Abstract Method | #Intent |
