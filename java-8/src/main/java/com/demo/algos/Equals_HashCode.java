@@ -2,6 +2,7 @@ package com.demo.algos;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.stream.Stream;
 
 import com.demo.algos.model.Book;
 
@@ -34,6 +35,8 @@ public class Equals_HashCode {
 		books.add(b2);
 
 		System.out.println(books.contains(b2));
+		
+		System.out.println("size : " + books.size());
 
 		System.out.println("book.hashCode():  " + b1.hashCode()
 

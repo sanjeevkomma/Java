@@ -26,7 +26,7 @@ public class Book {
 
 		final Book book = (Book) obj;
 
-		return ( book.id == this.id && book.name == this.name  );
+		return ( this.id == book.id  && this.name == book.name   );
 	}
 
 
