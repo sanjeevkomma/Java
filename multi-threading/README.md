@@ -33,12 +33,14 @@
 |Thread| |
 
 # Method
-| #Method  | #Definition |
-| :---: | :---: | 
-| join() | The join() method is used to wait for a thread to complete execution. The join() method of a Thread instance can be used to "join" the start of a thread's execution to the end of another thread's execution so that a thread will not start running until another thread has ended |
-| Thread.sleep(100) |  |
-| wait() | The wait() method is used to wait for a notification to be sent on an object |
-|  |  |
+|SNo| #Method  | #Definition |
+| :---:| :---: | :---: | 
+|1 | synchronized void join(long millis) , synchronized void join(long millis, int nanos) | The join() method is used to wait for a thread to complete execution. The join() method of a Thread instance can be used to "join" the start of a thread's execution to the end of another thread's execution so that a thread will not start running until another thread has ended |
+|2 | void sleep(long millis) |  |
+| 3| void wait(long timeout) | The wait() method is used to wait for a notification to be sent on an object |
+| 4| void yield() |  |
+| 5|void notify()||
+| 6|native void notifyAll()||
 
 # Reference
 * [reentrantlock](https://stackoverflow.com/questions/11821801/why-use-a-reentrantlock-if-one-can-use-synchronizedthis)
