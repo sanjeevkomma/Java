@@ -3,7 +3,7 @@ package com.demo.foreach_method;
 import java.util.List;
 import java.util.ArrayList;
 
-public class ForEach_Example {
+public class ForEach_Using_Collection {
 
 
 	// forEach(Consumer<T> action) is the default method in Iterable interface 
@@ -27,6 +27,11 @@ public class ForEach_Example {
 		System.out.println("------------Iterating by passing lambda expression--------------");  
 
 		gamesList.forEach( ( String game ) -> { System.out.println( game ); } );
+
+
+		// Using Collection forEach
+		gamesList.forEach( ( String str ) -> System.out.print(str + " ") );
+		gamesList.forEach( System.out :: println );
 
 	}
 

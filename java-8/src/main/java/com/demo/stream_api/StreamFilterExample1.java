@@ -10,14 +10,17 @@ public class StreamFilterExample1 {
 
 		List<String> names = Arrays.asList("Melisandre","Sansa","Jon","Daenerys","Joffery");
 
-		//Creating the stream of all names
 		Stream<String> allNames = names.stream();
 
-		//Creating another stream by filtering long names using filter()
 		Stream<String> longNames = allNames.filter(str -> str.length() > 6);
-
-		//displaying the long names
-		longNames.forEach(str->System.out.print(str+" "));
-
+		
+		// Using Steam forEach
+		longNames.forEach( ( String str ) -> System.out.print(str + " ") );
+		longNames.forEach( System.out :: println );
+		
+		// Using Collection forEach
+		names.forEach( ( String str ) -> System.out.print(str + " ") );
+		names.forEach( System.out :: println );
+		
 	}
 }

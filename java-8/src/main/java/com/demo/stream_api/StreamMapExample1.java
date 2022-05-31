@@ -12,7 +12,7 @@ public class StreamMapExample1 {
 
 		// List<String> allNames = names.stream().map( ( String str ) -> str.toUpperCase() ).collect(Collectors.toList()) ;
 		
-		List<String> allNames = names.stream().map( ( String str ) -> str.toUpperCase() ).filter(str -> str.length() > 6).collect(Collectors.toList()) ;
+		List<String> allNames = names.stream().map( ( String str ) -> str.toUpperCase() ).filter( ( String str ) -> ( str.length() > 6 ) ).collect(Collectors.toList()) ;
 
 		allNames.forEach( str -> System.out.print( str + " " ) );
 		
