@@ -2,6 +2,7 @@ package com.demo.foreach_method;
 
 import java.util.List;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ForEach_Using_Collection {
 
@@ -15,6 +16,10 @@ public class ForEach_Using_Collection {
 	public static void main(String[] args) {
 
 		List<String> gamesList = new ArrayList<String>();  
+		
+		Arrays.asList(args);
+		
+		// List<Integer> list = Arrays.stream(ints).boxed().collect(Collectors.toList());
 
 		gamesList.add("Football");  
 

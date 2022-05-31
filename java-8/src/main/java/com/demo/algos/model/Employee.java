@@ -1,41 +1,67 @@
 package com.demo.algos.model;
 
-public final class Employee {
+public class Employee {
 
-	private final Integer id;
-	private final String name;
-	private final Integer age;
-	private final Address address;
+	int id;
 
-	public Employee(Integer id , String name, Integer age, Address address) {
+	String name;
 
-		super();
+	int age;
+
+	String gender;
+
+	String department;
+
+	int yearOfJoining;
+
+	double salary;
+
+	public Employee(int id, String name, int age, String gender, String department, int yearOfJoining, double salary) {
 		this.id = id;
 		this.name = name;
 		this.age = age;
-		this.address = address;
+		this.gender = gender;
+		this.department = department;
+		this.yearOfJoining = yearOfJoining;
+		this.salary = salary;
+	}
+
+	public int getId() {
+		return id;
 	}
 
 	public String getName() {
 		return name;
 	}
-	public Integer getAge() {
+
+	public int getAge() {
 		return age;
 	}
-	
-	public Integer getId() {
-		return id;
-	}
-	
-	/* public Address getAddress() {
-	      return address;
-	      }
-	 */
-	
-	public Address getAddress() throws CloneNotSupportedException {
-		
-		return (Address) address.clone();
+
+	public String getGender() {
+		return gender;
 	}
 
+	public String getDepartment() {
+		return department;
+	}
 
+	public int getYearOfJoining() {
+		return yearOfJoining;
+	}
+
+	public double getSalary() {
+		return salary;
+	}
+
+	@Override
+	public String toString() {
+		return "Id : "+id
+				+", Name : "+name
+				+", age : "+age
+				+", Gender : "+gender
+				+", Department : "+department
+				+", Year Of Joining : "+yearOfJoining
+				+", Salary : "+salary;
+	}
 }

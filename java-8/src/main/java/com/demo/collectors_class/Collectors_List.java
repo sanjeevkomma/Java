@@ -1,7 +1,8 @@
 package com.demo.collectors_class;
 
 import java.util.stream.Collectors;  
-import java.util.List;  
+import java.util.List;
+import java.util.concurrent.BlockingQueue;
 import java.util.ArrayList;  
 
 class Student {  
@@ -40,7 +41,13 @@ public class Collectors_List {
 
 		studentlist.add(new Student(44,"Sansa",23));         
 
-		studentlist.add(new Student(55,"Maggie",18));                  
+		studentlist.add(new Student(55,"Maggie",18));  
+		
+		Thread tt; 
+		
+		Object jj; 
+		
+		BlockingQueue jjj; 
 
 		//Fetching student names as List       
 
