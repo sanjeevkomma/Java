@@ -51,7 +51,7 @@
 | 3| UnaryOperator<T> extends Function<T, T> | |
 |4| BinaryOperator<T> extends BiFunction<T,T,T> | |
 | 5| ```Supplier<T>``` |T get(); | |
-| 6| ```Consumer<T>``` |void accept(T t); | |
+| 6| java.util.function.```Consumer<T>``` |void accept(T t); | Consumer is any method which takes arguments and returns nothing|
 
 
 # Class
