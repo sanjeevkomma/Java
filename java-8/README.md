@@ -46,8 +46,8 @@
 # Functional Interfaces
 |SNo| #Interface  | #Abstract Method | #Intent |
 |:---: | :---: | :---: | :---: |
-|1 | java.util.function.Function<T, R> | R apply(T t); | 1. Function<T,R> is any method which takes an argument of one type, and returns another 2. This can be referred to as a 'transformation' 3. The Function<T,R> takes an T and returns a R 4. Notable is that for a given value of T, the function should always return a specific value of R. T and R can in fact be the same type|
-| 2| ```Predicate<T>``` | boolean test(T t); |1. Predicate<T> is strictly a boolean-valued function |
+|1 | java.util.function.Function<T, R> | R apply(T t); | 1. Function<T, R> is when you require a function that consumes one argument of type T and transforms that into a type R ( for ex : that may be when calling stream.map(func) ). T and R can in fact be the same type|
+| 2| ```Predicate<T>``` | boolean test(T t); |1. Predicate<T> is strictly a boolean-valued function 2. Predicate<T> is when you require a function that consumes one argument of type T and returns a boolean ( for ex : .filter(predicate).findFirst() ) |
 | 3| UnaryOperator<T> extends Function<T, T> | |
 |4| BinaryOperator<T> extends BiFunction<T,T,T> | |
 | 5| java.util.function.```Supplier<T>``` |T get(); |1. Supplier is any method which takes no arguments and returns a value 2. Its job is literally to supply an instance of an expected class 3. For instance, every reference to a 'getter' method is a Supplier |
