@@ -50,8 +50,8 @@
 | 2| ```Predicate<T>``` | boolean test(T t); | |
 | 3| UnaryOperator<T> extends Function<T, T> | |
 |4| BinaryOperator<T> extends BiFunction<T,T,T> | |
-| 5| java.util.function.```Supplier<T>``` |T get(); |1. Supplier is any method which takes no arguments and returns a value 2. Its job is literally to supply an instance of an expected class. For instance, every reference to a 'getter' method is a Supplier |
-| 6| java.util.function.```Consumer<T>``` |void accept(T t); | Consumer is any method which takes arguments and returns nothing. It is invoked for its side-effects. In Java terms, a Consumer is an idiom for a void method. 'setter' methods are a good example|
+| 5| java.util.function.```Supplier<T>``` |T get(); |1. Supplier is any method which takes no arguments and returns a value 2. Its job is literally to supply an instance of an expected class 3. For instance, every reference to a 'getter' method is a Supplier |
+| 6| java.util.function.```Consumer<T>``` |void accept(T t); | 1. Consumer is any method which takes arguments and returns nothing 2. It is invoked for its side-effects. 3. In Java terms, a Consumer is an idiom for a void method. 'setter' methods are a good example|
 
 
 # Class
