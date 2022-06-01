@@ -57,8 +57,10 @@
 # Class
 |SNo| #Class  | #Methods |
 | :---:| :---: | :---: | 
-|1| Optional<T>| empty() , of(T value) , ofNullable(T value), isPresent(), ifPresent(Consumer<? super T> consumer) |
+|1| java.util.Optional<T>| empty() , of(T value) , ofNullable(T value), isPresent(), ifPresent(Consumer<? super T> consumer) |
+|2| [java.util.stream.Collectors](https://javaconceptoftheday.com/java-8-collectors-tutorial/)|  |
   
+
 # Methods
 |SNo| #Method  | #Type |
 | :---:| :---: | :---: | 
