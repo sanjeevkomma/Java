@@ -46,12 +46,12 @@
 # Functional Interfaces
 |SNo| #Interface  | #Abstract Method | #Intent |
 |:---: | :---: | :---: | :---: |
-|1 | Function<T, R> | R apply(T t); | |
+|1 | java.util.function.Function<T, R> | R apply(T t); | 1. Function<A,B> is any method which takes an argument of one type, and returns another 2. This can be referred to as a 'transformation' 3. The Function<A,B> takes an A and returns a B 4. Notable is that for a given value of A, the function should always return a specific value of B. A and B can in fact be the same type|
 | 2| ```Predicate<T>``` | boolean test(T t); | |
 | 3| UnaryOperator<T> extends Function<T, T> | |
 |4| BinaryOperator<T> extends BiFunction<T,T,T> | |
 | 5| java.util.function.```Supplier<T>``` |T get(); |1. Supplier is any method which takes no arguments and returns a value 2. Its job is literally to supply an instance of an expected class 3. For instance, every reference to a 'getter' method is a Supplier |
-| 6| java.util.function.```Consumer<T>``` |void accept(T t); | 1. Consumer is any method which takes arguments and returns nothing 2. It is invoked for its side-effects. 3. In Java terms, a Consumer is an idiom for a void method. 'setter' methods are a good example|
+| 6| java.util.function.```Consumer<T>``` |void accept(T t); | 1. Consumer is any method which takes arguments and returns nothing 2. It is invoked for its side-effects. 3. In Java terms, a Consumer is an idiom for a void method 4. 'setter' methods are a good example|
 
 
 # Class
