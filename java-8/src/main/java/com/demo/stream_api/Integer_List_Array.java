@@ -25,5 +25,6 @@ public class Integer_List_Array {
 				System.out.print(intArray[i] + " , ");
 
 	}
+	
 
 }
