@@ -5,6 +5,8 @@
 * Stream does not store the elements. It simply performs the aggregate operations such as filter() and count() to get the desired stream of data
 * map() = transformation 
 * flatMap() = transformation + flattening
+* forEach() = 
+* collect() = 
 
 # Teminology
 
