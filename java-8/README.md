@@ -60,7 +60,7 @@
 |1| java.util.Optional<T>| empty() , of(T value) , ofNullable(T value), isPresent(), ifPresent(Consumer<? super T> consumer) |
 |2| [java.util.stream.Collectors](https://javaconceptoftheday.com/java-8-collectors-tutorial/)|  |
   
-# [java.util.stream.Collectors](https://javaconceptoftheday.com/java-8-collectors-tutorial/) class
+# [Collectors](https://javaconceptoftheday.com/java-8-collectors-tutorial/) Class
 |SNo| #Method  | #Intent |
 | :---:| :---: | :---: | 
 |1| public static <T> Collector<T, ?, List<T>> toList()| Returns Collector that accumulates the input elements into a new List |
