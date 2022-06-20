@@ -3,9 +3,10 @@
 * [Java 8 Features](https://beginnersbook.com/2017/10/java-8-features-with-examples/)
 * anonymous inner class ( before Java 8 ) vs using lambda expression ( Java 8 )
 * Stream does not store the elements. It simply performs the aggregate operations such as filter() and count() to get the desired stream of data
-* map() = transformation , iterate, input collection, output collection
+* map() = Function interface = transformation , iterate, input collection, output collection
+* filter() = Predicate interface 
 * flatMap() = transformation + flattening
-* forEach() = iterate, input collection
+* forEach() = Consumer interface ( setter method ) = iterate, input collection
 * collect() = 
 
 # Teminology
