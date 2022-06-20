@@ -12,7 +12,14 @@ public class Stream_Map_Example4 {
 		
 		List<Integer> squares = num.stream().map( ( Integer n ) ->  n = n * n  ).collect(Collectors.toList());
 		
-		System.out.println(squares);        
+		
+		
+	num.stream().forEach( ( Integer n ) ->  n = n * n  );
+		
+		
+		//System.out.println(squares);      
+		
+		System.out.println(num);        
 
 	}
 

@@ -14,7 +14,7 @@ public class Stream_FlatMap {
 
 		List<Integer> evenNumbers = Arrays.asList(2, 4, 6, 8);
 
-		List<List<Integer>> listOfListofInts = Arrays.asList(primeNumbers, oddNumbers, evenNumbers);
+		List<List<Integer>> listOfListofInts = Arrays.asList(primeNumbers, oddNumbers, evenNumbers,evenNumbers);
 
 		System.out.println("The Structure before flattening is : " + listOfListofInts);
 
