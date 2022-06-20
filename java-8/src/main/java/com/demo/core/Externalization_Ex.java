@@ -16,7 +16,7 @@ public class Externalization_Ex {
 
 		File file = new File("./src/main/java/com/demo/core/model/user.txt");  
 
-		User user = new User( 1 , "Sagar",25);  
+		User user = new User( 1 , "Tom",25);  
 
 		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(file));    
 
