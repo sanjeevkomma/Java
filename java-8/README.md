@@ -5,7 +5,7 @@
 * Stream does not store the elements. It simply performs the aggregate operations such as filter() and count() to get the desired stream of data
 * map() = Function interface = transformation , iterate, input collection, output collection
 * filter() = Predicate interface 
-* flatMap() = transformation + flattening
+* flatMap() = transformation + flattening ( merging multiple collections/arrays into one )
 * forEach() = Consumer interface ( setter method ) = iterate, input collection
 * collect() = 
 
