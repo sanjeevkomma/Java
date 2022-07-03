@@ -8,16 +8,15 @@ import com.demo.algos.model.Employee;
 
 public class Average_Age_Of_Male_Female {
 
-	
 	public static void main(String[] args) {
-		
+
 		List<Employee> employeeList = EmployeeList.getEmployeeList();
-		
+
 		Map<String, Double> avgAgeOfMaleAndFemaleEmployees =
-				
+
 				employeeList.stream().collect( Collectors.groupingBy( Employee :: getGender, Collectors.averagingInt( Employee :: getAge) ));
-				         
-				System.out.println(avgAgeOfMaleAndFemaleEmployees);
+
+		System.out.println(avgAgeOfMaleAndFemaleEmployees);
 	}
 
 

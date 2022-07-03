@@ -2,7 +2,6 @@ package com.demo.emp_mgt_system;
 
 import java.util.Comparator;
 import java.util.List;
-import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
@@ -15,6 +14,14 @@ public class Highest_Paid_Emp_Details {
 		List<Employee> employeeList = EmployeeList.getEmployeeList();
 
 		Optional<Employee> highestPaidEmployeeWrapper = employeeList.stream().collect( Collectors.maxBy( Comparator.comparingDouble( Employee :: getSalary ) ) );
+		
+		// Optional<Employee> empOp1 = Optional.of(null); // throws NullPointerException
+		
+		Optional<Employee> empOp2 = Optional.ofNullable(null); // It will return Optional.empty 
+		
+		// System.out.println("empOp1 :: "+empOp1);
+		
+		System.out.println("empOp2 :: "+empOp2);
 
 		Employee highestPaidEmployee = highestPaidEmployeeWrapper.get();
 
