@@ -1,4 +1,6 @@
 # To Read
+* By default Unchecked Exceptions are forwarded in calling chain (propagated)
+* By default, Checked Exceptions are NOT forwarded in calling chain (propagated)
 
 # Terminology
 |SNo| #Keyword  | #Intent |
