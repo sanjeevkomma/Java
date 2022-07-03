@@ -1,4 +1,4 @@
-package com.demo.algos;
+package com.demo.core;
 
 public class Comparable_Example {
 
