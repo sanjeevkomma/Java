@@ -1,4 +1,4 @@
-package com.demo.core;
+package com.demo.core.serialization;
 
 import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;

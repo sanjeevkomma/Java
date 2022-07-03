@@ -1,4 +1,4 @@
-package com.demo.core;
+package com.demo.core.serialization;
 
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;
