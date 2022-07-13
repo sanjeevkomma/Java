@@ -31,7 +31,13 @@
 | :---:| :---: | :---: | 
 | 1|java.util.concurrent.Executors |   |
 | 2|java.lang.Thread| |
-|3 |java.util.concurrent.ThreadPoolExecutor||
+
+# Executors Class Methods
+|SNo| #Method | #Usage |
+| :---:| :---: | :---: | 
+| 1|Executors.newScheduledThreadPool(5) |   |
+| 2|Executors.defaultThreadFactory()| |
+| 3|Executors.newCachedThreadPool()||
 
 # Method
 |SNo| #Method  | #Definition |
