@@ -32,7 +32,7 @@
 | 1|java.util.concurrent.Executors |   |
 | 2|java.lang.Thread| |
 | 3|[java.util.concurrent.ThreadPoolExecutor](https://www.javatpoint.com/java-threadpoolexecutor)| |
-| 4|java.util.concurrent.ScheduledThreadPoolExecutor| |
+| 4|[java.util.concurrent.ScheduledThreadPoolExecutor](https://www.tutorialspoint.com/java_concurrency/concurrency_scheduledthreadpoolexecutor.htm)| |
 
 # Executors Class Methods
 |SNo| #Method | #Usage |
