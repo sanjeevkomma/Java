@@ -20,17 +20,17 @@
 # Interface
 |SNo| #Interface | #Intent |
 | :---:| :---: | :---: | 
-|1 |Runnable |   |
-|2 |Callable | |
-|3 |ExecutorService| |
-| 4|ScheduledExecutorService| |
+|1 |java.lang.Runnable |   |
+|2 |java.util.concurrent.Callable | |
+|3 |java.util.concurrent.ExecutorService| |
+| 4|java.util.concurrent.ScheduledExecutorService| |
 |5 | ```java.util.concurrent.Future<V>``` | A Future represents the result of an asynchronous computation. Methods are provided to check if the computation is complete, to wait for its completion, and to retrieve the result of the computation|  
 
 # Class
 |SNo| #Class | #Usage |
 | :---:| :---: | :---: | 
-| 1|Executors |   |
-| 2|Thread| |
+| 1|java.util.concurrent.Executors |   |
+| 2|java.lang.Thread| |
 |3 |java.util.concurrent.ThreadPoolExecutor||
 
 # Method
