@@ -8,7 +8,7 @@
 * map() = Function interface (R apply(T t)) =  input collection -> iterate -> transformation -> output collection
 * filter() = Predicate interface (boolean test(T t))
 * flatMap() = transformation + flattening ( merging multiple collections/arrays into one )
-* forEach() = Consumer interface ( setter method ) = iterate, input collection
+* forEach() = Consumer interface ( setter method ) = input collection -> iterate -> print 
 * collect() = 
 
 # Teminology
