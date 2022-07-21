@@ -40,6 +40,7 @@
 | 1|Executors.newScheduledThreadPool(5) |   |
 | 2|Executors.defaultThreadFactory()| |
 | 3|Executors.newCachedThreadPool()||
+| 4|Executors.newFixedThreadPool(5)||
 
 # Method
 |SNo| #Method  | #Definition |
