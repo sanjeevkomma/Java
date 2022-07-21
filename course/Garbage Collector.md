@@ -8,12 +8,16 @@
 3. Permanent Generation
 
 # Garbage Collection Types
+|SNo| #Type  | ##Intent |
+| :---: | :---: | :---: |
+| 1 | Minor or Incremental Garbage Collection | |
+| 2 | Major or Full Garbage Collection| |
 
 # Garbage Collection Algorithms
 |SNo| #Algorithm  | ##Intent |
 | :---: | :---: | :---: |
 | 1 | [Mark-and-Sweep](https://www.geeksforgeeks.org/mark-and-sweep-garbage-collection-algorithm/) | |
-| 2 | <R> Stream<R> map(Function<? super T, ? extends R> mapper); | |
+| 2 | Semi-space| |
 
 
 # Reference
