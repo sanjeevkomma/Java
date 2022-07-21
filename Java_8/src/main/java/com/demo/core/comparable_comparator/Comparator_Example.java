@@ -1,4 +1,4 @@
-package com.demo.core;
+package com.demo.core.comparable_comparator;
 
 public class Comparator_Example {
 

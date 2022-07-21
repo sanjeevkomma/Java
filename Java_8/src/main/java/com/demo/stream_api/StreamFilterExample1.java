@@ -2,6 +2,7 @@ package com.demo.stream_api;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class StreamFilterExample1 {
@@ -16,7 +17,7 @@ public class StreamFilterExample1 {
 		
 		// Using Steam forEach
 		longNames.forEach( ( String str ) -> System.out.print(str + " ") );
-		longNames.forEach( System.out :: println );
+		//longNames.forEach( System.out :: println );
 		
 		// Using Collection forEach
 		names.forEach( ( String str ) -> System.out.print(str + " ") );
