@@ -1,6 +1,7 @@
 # Defintion
 
 # To Read
+* Java 8 Changes for GC : Java 8 has introduced one more JVM parameter for reducing the unnecessary use of memory by creating too many instances of the same String. This optimizes the heap memory by removing duplicate String values to a global single char[] array. We can enable this parameter by adding -XX:+UseStringDeduplication as a JVM parameter
 
 # Generations
 |SNo| #Generation  | ##Intent |
