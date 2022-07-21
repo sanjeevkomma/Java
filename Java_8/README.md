@@ -6,7 +6,7 @@
 * anonymous inner class ( before Java 8 ) vs using lambda expression ( Java 8 )
 * Stream does not store the elements. It simply performs the aggregate operations such as filter() and count() to get the desired stream of data
 * map() = Function interface (R apply(T t)) =  input collection -> iterate -> transformation -> output collection
-* filter() = Predicate interface (boolean test(T t))
+* filter() = Predicate interface (boolean test(T t)) = input collection -> iterate -> validation -> output collection
 * flatMap() = transformation + flattening ( merging multiple collections/arrays into one )
 * forEach() = Consumer interface ( setter method ) = input collection -> iterate -> print 
 * collect() = 
