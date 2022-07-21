@@ -3,9 +3,11 @@
 # To Read
 
 # Generations
-1. Young Generation
-2. Old Generation
-3. Permanent Generation
+|SNo| #Generation  | ##Intent |
+| :---: | :---: | :---: |
+| 1 | Young Generation | |
+| 1 | Old Generation | |
+| 1 | Permanent Generation | |
 
 # Garbage Collection Types
 |SNo| #Type  | ##Intent |
