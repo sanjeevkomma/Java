@@ -37,10 +37,10 @@
 # Executors Class Methods
 |SNo| #Method | #Usage |
 | :---:| :---: | :---: | 
-| 1|Executors.newScheduledThreadPool(5) |   |
+| 1|Executors.newScheduledThreadPool(5) |Creates a thread pool that can schedule commands to run after a given delay, or to execute periodically   |
 | 2|Executors.defaultThreadFactory()| |
 | 3|Executors.newCachedThreadPool()||
-| 4|Executors.newFixedThreadPool(5)||
+| 4|Executors.newFixedThreadPool(5)| 1. Creates a thread pool that reuses a fixed set of threads operating off a shared unbounded queue. 2. If any thread terminates due to a failure during execution prior to shutdown, a new one will take its place if needed to execute subsequent tasks|
 
 # Method
 |SNo| #Method  | #Definition |
