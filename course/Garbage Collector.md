@@ -6,8 +6,8 @@
 |SNo| #Generation  | ##Intent |
 | :---: | :---: | :---: |
 | 1 | Young Generation | |
-| 1 | Old Generation | |
-| 1 | Permanent Generation | |
+| 2 | Old Generation | |
+| 3 | Permanent Generation | |
 
 # Garbage Collection Types
 |SNo| #Type  | ##Intent |
